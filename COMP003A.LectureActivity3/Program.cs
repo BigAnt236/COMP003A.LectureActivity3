@@ -92,6 +92,14 @@ namespace COMP003A.LectureActivity3
                 //this code block executes if the above conditions are NOT true
                 Console.WriteLine("\tinputNumber is NOT divisible by 2/3/5/7.");
             }
+
+            Console.WriteLine("5. ternary operator");
+            string outputMessage = inputNumber % 2 == 0
+                ? "\tinputNumber is even."
+                : "\tinputNumber is odd.";
+            Console.WriteLine(outputMessage);
+
+
             }
         }
     }
