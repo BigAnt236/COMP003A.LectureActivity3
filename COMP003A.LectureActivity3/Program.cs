@@ -108,7 +108,12 @@ namespace COMP003A.LectureActivity3
             Console.WriteLine($"\t{inputNumber} < {randomNumber}: {inputNumber == randomNumber}");
             Console.WriteLine($"\t{inputNumber} <= {randomNumber}: {inputNumber == randomNumber}");
 
+            Console.WriteLine("7. Logical operators");
+            Console.WriteLine($"\t{inputNumber} == {randomNumber} && {inputNumber} >= {randomNumber}: {inputNumber == randomNumber && inputNumber >= randomNumber}");
+            Console.WriteLine($"\t{inputNumber} == {randomNumber} || {inputNumber} >= {randomNumber}: + {inputNumber == randomNumber || inputNumber >= randomNumber}");
+            Console.WriteLine($"\t!(true): {!(true)}");
 
+            Console.WriteLine("")
         }
         }
     }
