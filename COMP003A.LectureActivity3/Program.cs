@@ -60,6 +60,38 @@ namespace COMP003A.LectureActivity3
                 //this code block executes if inputNumber is NOT divisible by 2
                 Console.WriteLine("\t\tinputNumber is odd.");
             }
+
+            Console.WriteLine("4. multiple if-else statements");
+            // multiple if-else statements
+            if (inputNumber % 2 == 0) 
+            { 
+                //this code block executes if the above condition is true
+                //the rest if the condtions will no longer execute
+                Console.WriteLine("\tinputNumber is divisible by 2");
+            }
+            else if (inputNumber % 3 == 0)
+            {
+                //this code block executes if the above condition is true
+                //the rest of the conditions will no loner execute
+                Console.WriteLine("\tinputNumber is divisible by 3.");
+            }
+            else if (inputNumber % 5 == 0)
+            {
+                //this code block executes if the above condtion is true
+                //the rest of the conditions will no longer execute
+                Console.WriteLine("\tinputNumber is divisible by 5.");
+            }
+            else if (inputNumber % 7 == 0)
+            {
+                //this code block executes if the above condtion is true
+                //the rest of the conditions will no longer execute
+                Console.WriteLine("\tinputNumber is divisible by 7.");
+            }
+            else 
+            {
+                //this code block executes if the above conditions are NOT true
+                Console.WriteLine("\tinputNumber is NOT divisible by 2/3/5/7.");
+            }
             }
         }
     }
