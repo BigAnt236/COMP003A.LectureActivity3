@@ -102,11 +102,11 @@ namespace COMP003A.LectureActivity3
             int randomNumber = new Random().Next(10); //generates a random number 10 or below
             Console.WriteLine("6. comparison operators");
             Console.WriteLine($"\t{inputNumber} == {randomNumber}: {inputNumber == randomNumber}");
-            Console.WriteLine($"\t{inputNumber} != {randomNumber}: {inputNumber == randomNumber}");
-            Console.WriteLine($"\t{inputNumber} > {randomNumber}: {inputNumber == randomNumber}");
-            Console.WriteLine($"\t{inputNumber} >= {randomNumber}: {inputNumber == randomNumber}");
-            Console.WriteLine($"\t{inputNumber} < {randomNumber}: {inputNumber == randomNumber}");
-            Console.WriteLine($"\t{inputNumber} <= {randomNumber}: {inputNumber == randomNumber}");
+            Console.WriteLine($"\t{inputNumber} != {randomNumber}: {inputNumber != randomNumber}");
+            Console.WriteLine($"\t{inputNumber} > {randomNumber}: {inputNumber > randomNumber}");
+            Console.WriteLine($"\t{inputNumber} >= {randomNumber}: {inputNumber >= randomNumber}");
+            Console.WriteLine($"\t{inputNumber} < {randomNumber}: {inputNumber < randomNumber}");
+            Console.WriteLine($"\t{inputNumber} <= {randomNumber}: {inputNumber <= randomNumber}");
 
             Console.WriteLine("7. Logical operators");
             Console.WriteLine($"\t{inputNumber} == {randomNumber} && {inputNumber} >= {randomNumber}: {inputNumber == randomNumber && inputNumber >= randomNumber}");
